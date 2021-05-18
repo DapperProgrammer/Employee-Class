@@ -1,0 +1,21 @@
+#day shift == 1 : night shift == 2
+
+
+class Employee:
+  def __init__(self, name, number):
+    self.employee_name = name
+    self.employee_number = number
+    
+
+class Production_worker:
+  def __init__(self, shift_num, pay_rate):
+    self.employee_shift = shift_num
+    self.employee_pay_rate = pay_rate
+    
+    
+def main():
+  user = Employee (input('Enter your name:')), int(input('Enter your shift number'))
+  print(user.employee_name)
+  print(user.employee_number)
+  
+main()
